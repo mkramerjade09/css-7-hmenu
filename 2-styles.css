@@ -1,0 +1,53 @@
+/* GLOBAL STYLES */
+
+body {
+	background-color: azure;
+}
+
+code {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+/* WRAPPER */
+
+.wrapper {
+	width: 948px;
+	margin: 0 auto;
+	background-color: aliceblue;
+	border: 3px solid lightsteelblue;
+}
+
+/* HEADER */
+
+.header {
+	padding-top: 20px;
+	background-color: powderblue;
+}
+
+.heading {
+	padding-left: 10px;
+	margin: 0;
+}
+
+.intro {
+	padding-left: 10px;
+}
+
+.container {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+}
+
+.list-item {
+	padding: 15px 20px;
+	background-color: cyan;
+}
+/* MAIN */
+
+.main-content {
+	padding: 10px;
+}
