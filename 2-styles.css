@@ -37,14 +37,29 @@ code {
 .container {
 	list-style-type: none;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin: 0;
 	padding: 0;
+	gap: 5px;
 }
 
 .list-item {
-	padding: 15px 20px;
+	flex-grow: 1;
 	background-color: cyan;
+	text-align: center;
+	padding: 10px 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.list-item:hover {
+	background-color: gray;
+}
+
+.list-item:current-page {
+	background-color: white;
 }
 /* MAIN */
 
